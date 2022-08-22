@@ -19,7 +19,7 @@ function App() {
   }
 
   const reducer = (state: any, action: any) => {
-    //is the type is necessary?
+    //whats the type of state and action?
 
     switch (action.type) {
       case 'increment':
@@ -31,7 +31,7 @@ function App() {
   }
 
   const [state, dispatch] = useReducer(reducer, { count: 0 });
-  // count where to define?
+  //  state refer to count and dispatch refer to the actions inside the reducer function?
 
   const increment = () => {
     dispatch({ type: 'increment' })
