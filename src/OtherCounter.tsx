@@ -1,4 +1,4 @@
-import { useState, useReducer, useCallback } from "react";
+import { useReducer } from "react";
 import "./App.css";
 
 export default function OtherCounter() {

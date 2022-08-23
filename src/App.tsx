@@ -1,4 +1,4 @@
-import { useState, useReducer, useCallback } from "react";
+import { useState } from "react";
 import "./App.css";
 import OtherCounter from "./OtherCounter";
 
